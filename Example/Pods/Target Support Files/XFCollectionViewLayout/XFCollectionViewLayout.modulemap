@@ -1,0 +1,6 @@
+framework module XFCollectionViewLayout {
+  umbrella header "XFCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

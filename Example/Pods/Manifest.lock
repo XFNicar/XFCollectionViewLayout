@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XFCollectionViewLayout (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XFCollectionViewLayout (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XFCollectionViewLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XFCollectionViewLayout: 2613ecec2de059ebbd6dc429e8fe4508e4be7a48
+
+PODFILE CHECKSUM: 5db37cfa7c541e40448811551c52ccf1f7f5c494
+
+COCOAPODS: 1.10.0
