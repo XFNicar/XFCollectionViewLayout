@@ -39,5 +39,6 @@ typedef NS_ENUM(NSUInteger, XFCyclicAnnularItemOrientation) {
 
 
 @property (nonatomic, weak  ) id    <XFCyclicAnnularFlowLayoutDelegate> delegate;
+@property (nonatomic, assign) CGFloat               startRadian;
 
 @end

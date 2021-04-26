@@ -17,6 +17,7 @@
 @property (nonatomic, strong) NSMutableArray        *myAttrs;           //
 @property (nonatomic, assign) BOOL                  isClockwise;        // 是否顺时针排布 默认为YES
 
+
 @end
 
 @implementation XFCyclicAnnularFlowLayout
@@ -63,8 +64,9 @@
     }
 
     if (self.isClockwise) {
-        CGFloat startRadian = (M_PI - radian)/2;
-        item_radian = item_radian + M_PI + startRadian;
+//        CGFloat startRandian = M_PI;
+//        CGFloat startRadian = M_PI / 2;//(M_PI - radian)/2;
+        item_radian = item_radian + M_PI + self.startRadian;
     } else {
         item_radian = -item_radian;
         CGFloat startRadian = ( radian - M_PI)/2;
